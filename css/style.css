@@ -1,0 +1,153 @@
+/* 
+margin:0px
+padding:0px;
+*/
+body h1 h2 h3 h4 h5 h6 p li{
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    padding: 40px 0px; 
+    border: 1px #eee solid;
+}
+.container{
+     max-width: 1140px;
+     margin: auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+     
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 14px;
+    font-size: 20px;
+}
+menu ul li:hover{
+    background-color: tomato;
+    transition: 0.75s;
+}
+
+/* header end */
+
+.banner{}
+.container{}
+.main_banner{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.bnr h1 span{
+    color:#008aff;   
+}
+.bnr h1{
+    font-weight: 800px;
+    font-size: 42px;
+    line-height: 60px;
+
+}
+.bnr p{
+    font-weight:24px;
+    margin-bottom:40px;
+    color: #0F2656;
+}
+/* banner end */
+.project{}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.main_project{
+   display: flex;
+}
+.one{
+   flex-basis:50%; 
+   margin-left:130px;
+}
+.one h1{
+    color: tomato;
+    font-size: 45px;
+    margin-left:350px;
+
+}
+.one p{
+    margin-left: 60px;
+    color: #0F2656;
+}
+.one p span{
+   margin-left: 250px;
+}
+.two{
+   flex-basis:50%;
+   font-size: 25px;
+   margin-right:130px ;
+   color: #6D7B98;
+}
+/* projection end */
+.creative{}
+.container{
+    width: 1140;
+    margin: auto;
+}
+.maintain{
+    display: flex;
+}
+.first{
+    background-color: #FDEBED;
+    padding: 10px;
+    margin: 10px;
+    color: #6D7B98;
+}
+.second{
+    background-color: #EBF9F4;
+    padding: 10px;
+    margin: 10px;
+    color: #6D7B98;
+}
+.third{
+    background-color: #FFF4DE;
+    padding: 10px;
+    margin: 10px;
+    color: #6D7B98;
+}
+.third h4{
+    font-size: 36px;
+}
+/* creat end */
+.footer{}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.last{
+    text-align: center;
+    background-color: #008AFF;
+    
+}
+.link{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.link li  {
+    display: inline-block;
+    margin: 20px;  
+}
+.link li a i{
+    background-color: tomato;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+}
+.link li a i:hover{
+    transition: 0.5s;
+    background-color: seagreen;
+    color: white;
+}
